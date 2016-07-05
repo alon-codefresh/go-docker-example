@@ -1,4 +1,4 @@
-FROM index.tenxcloud.com/docker_library/golang
+FROM golang
 
 ADD . /go/src/go-docker-example
 RUN go install go-docker-example
